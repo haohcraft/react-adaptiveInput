@@ -1,0 +1,39 @@
+{
+  "name": "react-adaptiveinput",
+  "version": "0.2.1",
+  "description": "React adaptiveinput component",
+  "main": "index.js",
+  "scripts": {
+    "test": "script/test --browsers Firefox --single-run",
+    "start": "script/build"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haohcraft/react-adaptiveinput.git"
+  },
+  "keywords": [
+    "react",
+    "adaptiveinput",
+    "react-component"
+  ],
+  "author": "Hao Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haohcraft/react-adaptiveinput/issues"
+  },
+  "homepage": "https://github.com/haohcraft/react-adaptiveinput",
+  "dependencies": {
+    "react": "^0.11.1"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.11.0",
+    "webpack": "^1.3.2-beta8",
+    "webpack-dev-server": "^1.4.7",
+    "uglify-js": "^2.4.15"
+  }
+}
